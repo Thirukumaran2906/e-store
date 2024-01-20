@@ -1,0 +1,139 @@
+.display-cart{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.Main-cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cart-product{
+    padding: 5px;
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    border-bottom: 2px solid darkgoldenrod;
+}
+.cart-image{
+    width: 200px;
+    height: 100%;
+    
+}
+.cart-image img{
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;  
+}
+.up .icon{
+    width: 100%;
+    height: 100%;   
+     background-color:black;
+}
+.cart-details{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.quantity-display{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.up{
+    
+    width: 50px;
+    height: 40px;
+    color: black;
+}
+
+.spl{
+    color: black;
+}
+.amount-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.place-order{
+    width: 100%;
+    height:200px ;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.Order-btn{
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: darkgoldenrod;
+    color: black;
+}
+
+
+.Main-Order{
+    width: 500px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+
+
+
+
+@media (max-width:1000px)
+{
+    .cart-product{
+        width: 100%;
+    }
+    .up{
+        width: 50px;
+        height: 40px;
+        border:  2px solid black;
+        
+    }
+   .cart-image{
+    width: 150px;
+   }
+   .quantity-display{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+h3{
+    font-size: 20px;
+}
+
+.Ordered{ 
+    background-position: right;
+}
+
+}

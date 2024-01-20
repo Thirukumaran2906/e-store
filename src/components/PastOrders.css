@@ -1,0 +1,74 @@
+
+  .past-orders-container {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #333;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .PastList {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .order-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .order-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #222222;
+  }
+  
+  .order-item p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  .order-item p:first-child {
+    font-weight: bold;
+  }
+
+  .no-orders-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .no-orders-message p {
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff; 
+  }
+.empty-cart-message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    background-color:#000000;
+    font-size: 20px;
+}  
+@media (max-width:700pX)
+{
+    .order-item{
+        display: block;     
+    }
+}
